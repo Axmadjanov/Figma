@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+.bodyPage1 {
+  // height: 50vh;
+  padding: 40px 0;
+  background: url(../Images/thinkingman.jpg);
+  background-position: top right 30%;
+}
+
+.bodyPage1 .body2 {
+  width: 40%;
+}
+.bodyPage1 .contained {
+  width: 25%;
+}
+.bodyPage2 {
+  padding: 70px 40px;
+  background: rgb(176, 228, 182);
+}
+
+.lens {
+  color: red;
+}
+span {
+  color: green;
+}
+.bodyPage3 {
+  margin-bottom: 35px;
+  .card:first-child {
+    position: relative;
+    top: -30px;
+    margin-bottom: 0;
+  }
+  .card {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 3px 0 #111;
+    margin-bottom: 30px;
+  }
+  .searchIcon {
+    color: green;
+    font-size: 35px;
+    margin: 0 15px;
+    padding: 5px;
+    background: rgb(176, 228, 182);
+    border-radius: 7px;
+  }
+}
+.opinion {
+  padding: 30px;
+  background-color: #111;
+  border-radius: 5px;
+}
+.bodyPage4 {
+  padding: 20px 0 30px 0;
+  margin-bottom: 30px;
+  background: #999999;
+}
+.name {
+  text-align: center;
+}
+.name img {
+  border-radius: 10px;
+}
+.cards img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cosl {
+  color: #fff;
+  padding: 25px 30px;
+  background: #111;
+}
+// .bodyPage1 {
+//   height: auto;
+//   padding: 150px 0;
+//   display: flex;
+//   align-items: center;
+//   background: url(../Images/thinkingman.jpg);
+//   background-repeat: no-repeat;
+//   background-position: center top;
+//   background-size: 100%;
+// }
+
+// .bodyPage2 {
+//   padding: 100px 0;
+//   display: felx;
+//   flex-direction: column;
+//   text-align: center;
+// }
+
+// @media only screen and (max-width: 800px) {
+//   .bodyPage1 {
+//     padding: 50px 0;
+//     .typography {
+//       font-size: 15px;
+//     }
+//     .body2 {
+//       width: 50%;
+//       font-size: 8px;
+//       font-weight: 700;
+//     }
+//     .contained {
+//       font-size: 8px;
+//     }
+//   }
+// }
