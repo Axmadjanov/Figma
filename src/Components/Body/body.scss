@@ -78,6 +78,21 @@ span {
   padding: 25px 30px;
   background: #111;
 }
+.Contactpage {
+  margin: 20px 0;
+}
+.Contactpage tr {
+  margin: 5px;
+}
+.Contactpage td {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 14px;
+}
+.Contactpage td:hover {
+  color: green;
+}
+
 // .bodyPage1 {
 //   height: auto;
 //   padding: 150px 0;

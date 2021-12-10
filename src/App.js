@@ -6,6 +6,7 @@ import BodyPage2 from "./Components/Body/Body2";
 import BodyPage3 from "./Components/Body/Body3";
 import BodyPage4 from "./Components/Body/Body4";
 import BodyPage5 from "./Components/Body/Body5";
+import Contact from "./Components/Body/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BodyPage3 />
       <BodyPage4 />
       <BodyPage5 />
+      <Contact />
     </div>
   );
 }
